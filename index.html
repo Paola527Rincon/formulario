@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lan = "en">
+    <head>
+        <meta  charset= "UTF-8">
+        <title>Formulario de contacto </title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+    	<div class="from">
+    		<form action = "guardar.php" method="POST">
+    			<p>Nombres</p>
+    			<label for="nombres">Su nombre</label>
+    			<br>
+    			<input type="text" name="nombres" placeholder="Nombres" required>
+                <p>Apellidos</p>
+                <label for="apellidos">Su apellido</label>
+                <br>
+                <input type="text" name="apellidos" placeholder="Apellidos" required>
+                <p>Edad</p>
+                <label for="edad">Su edad</label>
+                <br>
+                <input type="text" name="edad" placeholder="Edad" required>
+                <p>Temperatura</p>
+                <label for="temperatura">Temperatura</label>
+                <br>
+                <input type="text" name="temperatura" placeholder="Temperatura" required>
+    			<p>Correo</p>
+    			<label for="correo">Direccion de correo</label>
+    			<br>
+    			<input type="email" name="correo" placeholder="alguien@algo.com" required>
+    			<br>
+    			<br>
+    			<input type="submit" value="Enviar">
+        	</form>
+    	</div>
+    </body>
+</html>

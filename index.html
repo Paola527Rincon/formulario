@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html lan = "en">
-    <head>
-        <meta  charset= "UTF-8">
-        <title>Formulario de contacto </title>
-        <link rel="stylesheet" type="text/css" href="estilo.css">
-    </head>
-    <body>
-    	<div class="from">
-    		<form action = "guardar.php" method="POST">
-    			<p>Nombres</p>
-    			<label for="nombres">Su nombre</label>
-    			<br>
-    			<input type="text" name="nombres" placeholder="Nombres" required>
-                <p>Apellidos</p>
-                <label for="apellidos">Su apellido</label>
-                <br>
-                <input type="text" name="apellidos" placeholder="Apellidos" required>
-                <p>Edad</p>
-                <label for="edad">Su edad</label>
-                <br>
-                <input type="text" name="edad" placeholder="Edad" required>
-                <p>Temperatura</p>
-                <label for="temperatura">Temperatura</label>
-                <br>
-                <input type="text" name="temperatura" placeholder="Temperatura" required>
-    			<p>Correo</p>
-    			<label for="correo">Direccion de correo</label>
-    			<br>
-    			<input type="email" name="correo" placeholder="alguien@algo.com" required>
-    			<br>
-    			<br>
-    			<input type="submit" value="Enviar">
-        	</form>
-    	</div>
-    </body>
+<head>
+	<meta charset="utf-8">
+	<title>Registro</title>
+	<meta name = "viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximun-scale=3.0, minimum-scale=1.0">  
+	<link rel="icon" type="image/png" href="image/logo sin titulo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div class="from"> 
+    <form action = "guardar.php" method="POST">
+	<h1>FORMULARIO DE REGISTRO</h1>
+	<h3>¡Bienvenido a su pañalera de confianza! </h3>
+	<div class="contenedor">
+		<p>Nombres</p>
+		<div class="input-contenedor">
+		<input type="text" name="nombres" placeholder="Sus nombres" required="">
+		</div>
+
+		<p>Apellidos</p>
+		<div class="input-contenedor">
+		<input type="text" name="apellidos" placeholder="Sus apellidos" required="">
+		</div>
+
+		<p>Identicación</p>
+		<div class="input-contenedor">
+		<input type="text" name="identificacion" placeholder="Número de identicación" required="">
+		</div> 
+
+		<p>Edad</p>
+		<div class="input-contenedor">
+		<input type="text" name="edad" placeholder="Su edad" required="">
+		</div>
+
+		<p>Número de teléfono</p>
+		<div class="input-contenedor">
+		<input type="text" name="telefono" placeholder="Número de teléfono" required="">
+		</div>
+
+		<p>Que producto desea llevar</p>
+		<div class="input-contenedor">
+		<input type="text" name="producto" placeholder="Producto" required="">
+		</div>
+		
+
+		<p>Email</p>
+		<div class="input-contenedor">
+		<input type="text" name="correo" placeholder="alguien@gmail.com">
+		</div>
+        
+        
+		<p>Dirección</p>
+		<div class="input-contenedor">
+		<input type="text" name="direccion" placeholder="Dirección">
+		</div>
+		
+		<p>Ciudad</p>
+		<div class="input-contenedor">
+		<input type="text" name="ciudad" placeholder="Ciudad">
+		</div>
+
+		<input type="submit" value="Registrarse" class="button">
+		
+	</div>
+</form>
+</div>
+</body>
 </html>

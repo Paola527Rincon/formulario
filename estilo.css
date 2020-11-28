@@ -1,0 +1,101 @@
+body {
+
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	background: url(abir-una-pañalera.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	width: 500px;
+	height: 720px;
+	padding-left: 20px;
+	padding-top: 15px;
+	border-radius: 20px;
+	margin: auto; 
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.contenedor{
+	background: #fff;
+	width: 100%;
+	padding: 15px;
+
+}
+
+.formulario{
+
+	background: #fff;
+	margin-top: 15px;
+	padding: 3px;
+
+}
+h1{
+	background:#1a2537; 
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+h3{
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;;
+	color: white;
+	font-size: 20px;
+}
+input[type="text"]{
+	font-size: 20px;
+	width: 82%;
+	padding: 10px;
+	border: none;
+}
+.input-contenedor{
+	margin-bottom: 15px;
+	
+	border-color: rgb(41, 43, 144);/* borde */
+    border-style: double;/* borde solido */
+	border-radius: 5px;
+	
+}
+
+.button{
+	border: none;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	background: #1a2537;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.button:hover{
+	background: cadetblue
+	
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+	color: #1a2537;
+	font-weight: 600;
+}
+.link:hover{
+	color: cadetblue;
+}
+@media(min-width: 768px)
+{
+	.formulario{
+		margin: auto;
+		width: 500px;
+		margin-top: 150px;	
+		border-radius: 2%;
+		
+	}
+}
+
